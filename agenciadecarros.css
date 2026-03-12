@@ -41,7 +41,7 @@
 .ul-lista li a {
     text-decoration: none;
     /* Removendo o sublinhado da âncora */
-    color: black;
+    color: darkred;
     /* Cor da letra */
     font-size: 20px;
     /* tamanho da letra */
@@ -69,7 +69,7 @@
     /* Alinhamento horizontal */
     flex-direction: row;
     /* direção de caixas */
-    background-color: black;
+    background-color: slategray;
     /* cor de fundo */
     padding: 40px;
     /* preenchimento interno */
@@ -121,7 +121,7 @@ span {
     /* alinhamento texto ao centro */
 }
 
-/* estilização do título section2 */
+/* estilização do titulo section2 */
 .paragrafo-section-2 h2 {
     font-size: 30px;
     /* tamanho do texto h2 */
@@ -311,8 +311,7 @@ span {
     flex-direction: column;
 }
 
-.footer .fa-instragram,
-.fa-whatsapp,
+.footer .fa-instragram, .fa-whatsapp,
 .fa-youtube {
     color: black;
     font-size: 40px;
