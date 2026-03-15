@@ -9,7 +9,7 @@
     /* tornando os itens lado a lado | flexbox */
     align-items: center;
     /* alinhamento vertical */
-    justify-content: space-evenly;
+    justify-content:space-evenly;
     /* alihamento horizontal */
     padding: 30px;
     /* Preenchimento interno */
@@ -19,22 +19,20 @@
 
 /* Estilização da logo */
 .img-header {
-    width: 100px;
-    /* largura da logo Header */
+width: 100px; /* largura da logo Header */
 }
 
 /* Estilização da lista */
 .ul-lista li {
-    list-style: none;
-    /* removendo as bolinhas da lista */
+    list-style: none;/* removendo as bolinhas da lista */
 }
 
 /* Estilização da ul (elemento pai da li */
 .ul-lista {
     display: flex;
-    /* tornando as listas lado a lado(Flexbox) */
+    /* tornando as li lado a lado(Flexbox) */
     gap: 15px;
-    /* Espaçamento entre as listas */
+    /* Espaçamento entre as li */
 }
 
 /* Aqui estamos estilizando a âncora */
@@ -74,11 +72,12 @@
     padding: 40px;
     /* preenchimento interno */
     gap: 30px;
-    /* espaço entre as div */
+    /* espaço entre as divs */
 }
 
 .div-02 p {
     background-color: darkgray;
+    /* cor da letra */
     font-size: 40px;
     /* tamanho da font */
     margin-left: 30px;
@@ -95,6 +94,7 @@ span {
     /* tamanho da letra do span */
 
 }
+/* fim da section-01 */
 
 /* section-02 */
 /* Ícones devem ser manipulados como textos (font-size,color...) */
@@ -172,19 +172,18 @@ span {
     /* removendo bordas do button */
 }
 
-.hr {}
+.hr 
 
-/* section 07 */
-.section-07 {
+/* section 05 */
+.section-05 {
     background-image: url(g.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: fixed;
     padding: 180px;
-    display: flex;
-    /* alinhamento vertical */
-    justify-content: center;
-    /* alinhamento horizontal */
+    display: flex;/* alinhamento vertical */
+    justify-content: center;/* alinhamento horizontal */
+
 }
 
 .btn {
@@ -196,24 +195,19 @@ span {
 }
 
 .section-04 {
-    width: 300px;
-    /* largura da caixa */
-    height: 300px;
-    /* altura da caixa */
-    background-color: cadetblue;
-    /* cor de fundo */
-    padding: 15px;
-    /* preenchimento interno */
-    text-align: center;
-    /* alinhamento dos texts */
+    width: 300px;/* largura da caixa */
+    height: 300px; /* altura da caixa */
+    background-color: cadetblue;/* cor de fundo */
+    padding: 15px;/* preenchimento interno */
+    text-align: center;/* alinhamento dos texts */
 }
 
-/* formatação da section 05} */
+/*formatação da section 05*/
 .section-05 {
     display: flex;
     /* deixando as div lado a lado */
     align-items: center;
-    /* alinhamento vertical */
+    /* alinhamento vertical*/
     justify-content: space-evenly;
     /* alinhamento horizontal */
     gap: 30px;
@@ -260,24 +254,22 @@ span {
     /* tamanho da letra */
     font-weight: 700;
     /* peso da font */
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 25px;
 }
 
 /* estilfização dos ícones */
 .fa-instragram,
-.fa-whatsapp {
-    font-size: 70px;
-    /* tamanho do icon */
-    color: black;
-    /* cores do icon */
+.fa-whatsapp, .fa-whatsapp{
+    font-size: 70px; /* tamanho do icon */
+    color: black;/* cores do icon */
 }
 
 .fa-youtube {
     font-size: 70px;
     margin-top: 30px;
     margin-bottom: 15px;
-    color: gold;
+    color: black;
 }
 
 .caixa-03 p {
@@ -305,6 +297,7 @@ span {
 .footer {
     background-color: honeydew;
     padding: 80px;
+    color: red;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -317,6 +310,6 @@ span {
     font-size: 40px;
 }
 
-.caixa-footer {
+.caixa-footer-icon {
     text-align: center;
 }
