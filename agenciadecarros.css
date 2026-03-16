@@ -2,8 +2,8 @@
 
 /* Estilizando o Header */
 .cabecalho {
-    
-    background-color: grey;
+
+    background-color: #8C1F28;
     /* cor de fundo
      do header*/
     display: flex;
@@ -14,7 +14,6 @@
     /* alihamento horizontal */
     padding: 30px;
     /* Preenchimento interno */
-    font-family: "Cormorant Garamond", serif;
 
 }
 
@@ -40,7 +39,7 @@ width: 100px; /* largura da logo Header */
 .ul-lista li a {
     text-decoration: none;
     /* Removendo o sublinhado da âncora */
-    color: bisque;
+    color: black;
     /* Cor da letra */
     font-size: 20px;
     /* tamanho da letra */
@@ -68,7 +67,7 @@ width: 100px; /* largura da logo Header */
     /* Alinhamento horizontal */
     flex-direction: row;
     /* direção de caixas */
-    background-color: cornsilk;
+    background-color: teal;
     /* cor de fundo */
     padding: 40px;
     /* preenchimento interno */
@@ -77,7 +76,7 @@ width: 100px; /* largura da logo Header */
 }
 
 .div-02 p {
-    background-color: darkblue;
+    background-color: none;
     /* cor da letra */
     font-size: 40px;
     /* tamanho da font */
@@ -98,16 +97,15 @@ span {
 /* fim da section-01 */
 
 /* section-02 */
-/* Ícones devem ser manipulados como textos (font-size,color...) */
+/* Icones devem ser manipulados como textos (font-size,color...) */
 .fa-solid {
     font-size: 60px;
-    color: blue;
-    /* cor de fundo */
-    display: flex;          /* flexbox para alinhar lado a lado */
-    flex-direction: row;    /* horizontal */
-    justify-content: center; /* centraliza horizontalmente na seção */
-    align-items: center;     /* centraliza verticalmente */
-    gap: 40px;               /* espaço entre os ícones */
+    color: #8C1F28; /* cor de fundo */
+    display: flex; /* flexbox para alinhar lado a lado */
+    flex-direction: row; /* alinhamento horizontal */
+    justify-content: center; /* centraliza na section */
+    align-items: center; /* alinhamento verticalmente */
+    gap: 40px; /* espaço entre os icones */
 }
 
 .section-02 {
@@ -116,11 +114,11 @@ span {
     padding: 80px;
     /* preenchimento interno */
     color: gray;
-    /* cor das letras (H2 e P */
+    /* cor das letras (H2 e P) */
     display: flex;
     /* Tornando aas div lado a lado */
     align-items: center;
-    /* Alinhamento vertical */
+    /* alinhamento vertical */
     flex-direction: column;
     /* direção de caixas */
     text-align: center;
@@ -143,7 +141,7 @@ span {
 
 .div-icon i {
     /* div que guarda os icones */
-    display: flex;/* alinhamento lado a lado*/
+    display: flex;/* alinhamento vertical*/
     gap: 20px;
     /* brecha entre os Icon */
 }
@@ -260,7 +258,7 @@ span {
     margin-bottom: 25px;
 }
 
-/* estiização dos cones */
+/* estiização dos icones */
 .fa-instagram,
 .fa-whatsapp, .fa-youtube{
     font-size: 70px; /* tamanho do icon */
@@ -291,22 +289,21 @@ span {
     /* removendo borda */
 }
 
-.footer {
-  background-color: honeydew;/* cor de fundo */
-  padding: 30px;
-  display: flex; /* deixando as div lado a lado */
-  justify-content: space-between;/* alinhamento horizontal */
-  align-items: center; /* alinhamento horizontal */
+.paragrafo {
+    background-color: #8C1F28;
+    padding: 10px;
+    flex-direction: row;
+    display: flex;
+    gap: 1px;
 }
 
-
-.footer .fa-instagram, .fa-whatsapp,
-.fa-youtube {
+.footer .fa-car-baterry {
     color: black;
     font-size: 40px;
 }
 
-.caixa-footer-icon {
+.caixa-icon {
     text-align: center;
-    display: flex;/* espaçamento entre as icones */
+    position: relative; /* referência para o ícone */
+
 }
