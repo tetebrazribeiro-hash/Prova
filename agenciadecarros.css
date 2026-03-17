@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Faster+One&display=swap');
 
+
 /* Estilizando o Header */
 .cabecalho {
 
@@ -16,7 +17,15 @@
     /* Preenchimento interno */
 
 }
+ .header {
 
+    align-items: center; /* responsavel por alinhar verticalmente */
+    position: sticky; /* faz com que o elemento fique "grudado" na tela quandi o usuário rolar a página */
+    top: 0; /* define que o elemento ficará preso no topo da tela (0px de distância do topo) */
+    left: 0; /* Define o alinhamento à esquerda da página, mantendo 0px de distância  */
+    z-index: 1;
+    /* controla a sobre posição do elemento sobre outros elementos da página */
+ }
 /* Estilização da logo */
 .img-header {
 width: 100px; /* largura da logo Header */
